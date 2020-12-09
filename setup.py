@@ -11,12 +11,12 @@ twine upload --repository pypi dist/*
 '''
 setup(
     name='bertemb',
-    version='0.0.1',
+    version='0.0.1', #上げていく
     url='https://github.com/mei2505/bert_embedding.git',
     license='None',
     author='Miyu Tamura',
     description='Sharable in Google Colab',
-    install_requires=['setuptools', 'transformers', 'torch','mecab-python3==0.7','fugashi[unidic-lite]','ipadic'],
+    install_requires=['setuptools', 'transformers==3.9.0', 'torch','mecab-python3==0.7','fugashi[unidic-lite]','ipadic'],
     packages=['bertemb'],
     package_data={'bertemb': [
         '*/*', '*/*/*', '*/*.tpeg', '*/*.csv', '*/*.txt']},
