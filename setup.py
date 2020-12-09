@@ -16,7 +16,7 @@ setup(
     license='None',
     author='Miyu Tamura',
     description='Sharable in Google Colab',
-    install_requires=['setuptools', 'transformers==3.9.0', 'torch','mecab-python3==0.7','fugashi[unidic-lite]','ipadic'],
+    install_requires=['setuptools', 'transformers==3.5.1', 'torch','mecab-python3==0.7','fugashi[unidic-lite]','ipadic'],
     packages=['bertemb'],
     package_data={'bertemb': [
         '*/*', '*/*/*', '*/*.tpeg', '*/*.csv', '*/*.txt']},
