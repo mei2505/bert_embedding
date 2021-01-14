@@ -11,7 +11,7 @@ twine upload --repository pypi dist/*
 '''
 setup(
     name='bertemb',
-    version='0.0.3', #上げていく
+    version='0.0.4', #上げていく
     url='https://github.com/mei2505/bert_embedding.git',
     license='None',
     author='Miyu Tamura',
