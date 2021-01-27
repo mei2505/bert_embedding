@@ -46,3 +46,4 @@ class BERT_EMB_4():
     features = word_embed_6[:,0,:].numpy()
 
     return features
+
