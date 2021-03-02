@@ -3,7 +3,7 @@ import transformers
 import torch
 from transformers import BertJapaneseTokenizer,BertModel
 
-class BERT_EMB():
+class BERT_768_EMB():
   def __init__(self):
     self.tokenizer = BertJapaneseTokenizer.from_pretrained('cl-tohoku/bert-base-japanese-whole-word-masking')
     self.max_len = 128

@@ -5,7 +5,7 @@ import torch
 from transformers import BertJapaneseTokenizer,BertModel
 from torch import cuda
 
-class BERT_EMB_0():
+class BERT_INPUT_EMB():
   def __init__(self):
     self.tokenizer = BertJapaneseTokenizer.from_pretrained('cl-tohoku/bert-base-japanese-whole-word-masking')
     self.model = BertModel.from_pretrained('cl-tohoku/bert-base-japanese-whole-word-masking')
